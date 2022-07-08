@@ -1,0 +1,326 @@
+body {
+  background-color: #0c0c0c;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.navbar {
+  position: relative;
+  top: 20px;
+  color: #e5dfd9;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.logo-left {
+  font-size: 20px;
+  font-family: "comme", sans-serif;
+  margin-left: 40px;
+  letter-spacing: 14px;
+}
+
+.icons-right {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  margin: 0 30px;
+}
+
+.categories-bottom {
+  font-family: "Encode Sans";
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-left: 25%;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.categories-bottom h2 {
+  width: auto;
+  margin: 0 30px;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.banner-img {
+  margin-top: 100px;
+  flex-direction: row();
+}
+
+.container-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 30px;
+  margin: 0 100px;
+}
+
+.container-product img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-product h3 {
+  font-size: 13px;
+  line-height: 16.25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container-product-selected {
+  color: white;
+  line-height: 20px;
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+
+.item-selected {
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+}
+
+.container-product-selected li {
+  position: absolute;
+  font-size: 14px;
+  left: 100px;
+}
+
+.product-count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  right: 50px;
+}
+
+.product-count-icon {
+  position: absolute;
+  left: 90px;
+  top: 25px;
+  font-size: 14px;
+}
+
+.banner-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image img {
+  width: 90%;
+  height: 40%;
+}
+
+.product-description {
+  color: #e5dfd9;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.4988px;
+  line-height: 26px;
+  text-overflow:ellipsis;
+  overflow: hidden;
+}
+
+.product-price {
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.7905px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: white;
+  margin-top: 10px;
+}
+
+.actualprice {
+  color: #2fc14f;
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.9576px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  margin-top: 10px;
+
+}
+
+
+/******************************MEDIA RESPONSIVENESS**********************************/
+
+@media(max-width: 765px){
+
+
+  .logo-left {
+    font-size: 14px;
+    font-family: "comme", sans-serif;
+    margin-left: 14px;
+    letter-spacing: 6px;
+}
+
+.icons-right {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  margin: 0px 20px;
+}
+
+.icons {
+  margin-right: 5px;
+}
+
+.categories-bottom {
+  font-family: "Encode Sans";
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+  width: 100px;
+}
+
+.categories-bottom h2 {
+  width: 14px;
+  margin: 0px 26px;
+  padding-left: 0px;
+  font-size: 8px;
+}
+
+
+ 
+.container-product h3 {
+  font-size: 5px;
+  line-height: 5.25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container-product img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.container-product-selected {
+
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+}
+
+
+
+.item-selected {
+  font-size: 10px;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+}
+
+.container-product-selected li {
+  position: absolute;
+  font-size: 10px;
+  left: 80px;
+}
+
+.product-count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  right: 40px;
+}
+
+.product-count-icon {
+  position: absolute;
+  left: 55px;
+  top: 15px;
+  font-size: 8px;
+}
+
+
+
+.product-count h5{
+  font-size: 8px;
+}
+
+.banner-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+margin-right:   30px;
+
+}
+
+
+.banner-img img {
+  width: 85px;
+  height: 100px;
+
+}
+
+
+.product-description {
+  font-size: 12.4988px;
+  line-height: 18px;
+}
+
+
+.product-price {
+ 
+  font-size: 16.7905px;
+  line-height: 26px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
